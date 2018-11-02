@@ -7,18 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EBB4E67E218CF4AC00E50558 /* SnapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB4E67D218CF4AC00E50558 /* SnapsViewController.swift */; };
+		EBB4E680218CF82F00E50558 /* ImagenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB4E67F218CF82F00E50558 /* ImagenViewController.swift */; };
+		EBB4E682218D022B00E50558 /* ElegirUsuarioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB4E681218D022B00E50558 /* ElegirUsuarioViewController.swift */; };
+		EBCB384D218CE2D600E84DF3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EBCB384C218CE2D600E84DF3 /* GoogleService-Info.plist */; };
 		EBD3C2F0218CDC1E00E61956 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD3C2EF218CDC1E00E61956 /* AppDelegate.swift */; };
-		EBD3C2F2218CDC1E00E61956 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD3C2F1218CDC1E00E61956 /* ViewController.swift */; };
+		EBD3C2F2218CDC1E00E61956 /* IniciarSesionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD3C2F1218CDC1E00E61956 /* IniciarSesionViewController.swift */; };
 		EBD3C2F5218CDC1E00E61956 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBD3C2F3218CDC1E00E61956 /* Main.storyboard */; };
 		EBD3C2F8218CDC1E00E61956 /* SocialNetwork.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EBD3C2F6218CDC1E00E61956 /* SocialNetwork.xcdatamodeld */; };
 		EBD3C2FA218CDC1E00E61956 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBD3C2F9218CDC1E00E61956 /* Assets.xcassets */; };
 		EBD3C2FD218CDC1E00E61956 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBD3C2FB218CDC1E00E61956 /* LaunchScreen.storyboard */; };
+		EE7DC806A8A91E68DE0DB0C4 /* Pods_SocialNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAC2FF65C88546D40CF61311 /* Pods_SocialNetwork.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6FE553FAAAD8C62F0BD24BC4 /* Pods-SocialNetwork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialNetwork.release.xcconfig"; path = "Pods/Target Support Files/Pods-SocialNetwork/Pods-SocialNetwork.release.xcconfig"; sourceTree = "<group>"; };
+		D5FE61D48803D6063A7E14D3 /* Pods-SocialNetwork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialNetwork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SocialNetwork/Pods-SocialNetwork.debug.xcconfig"; sourceTree = "<group>"; };
+		DAC2FF65C88546D40CF61311 /* Pods_SocialNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocialNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBB4E67C218CF25A00E50558 /* SocialNetwork.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SocialNetwork.entitlements; sourceTree = "<group>"; };
+		EBB4E67D218CF4AC00E50558 /* SnapsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapsViewController.swift; sourceTree = "<group>"; };
+		EBB4E67F218CF82F00E50558 /* ImagenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagenViewController.swift; sourceTree = "<group>"; };
+		EBB4E681218D022B00E50558 /* ElegirUsuarioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElegirUsuarioViewController.swift; sourceTree = "<group>"; };
+		EBCB384C218CE2D600E84DF3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		EBD3C2EC218CDC1E00E61956 /* SocialNetwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialNetwork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBD3C2EF218CDC1E00E61956 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EBD3C2F1218CDC1E00E61956 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EBD3C2F1218CDC1E00E61956 /* IniciarSesionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IniciarSesionViewController.swift; sourceTree = "<group>"; };
 		EBD3C2F4218CDC1E00E61956 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EBD3C2F7218CDC1E00E61956 /* SocialNetwork.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SocialNetwork.xcdatamodel; sourceTree = "<group>"; };
 		EBD3C2F9218CDC1E00E61956 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -31,17 +44,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE7DC806A8A91E68DE0DB0C4 /* Pods_SocialNetwork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C9174EBD3AA1FAE432A7750E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D5FE61D48803D6063A7E14D3 /* Pods-SocialNetwork.debug.xcconfig */,
+				6FE553FAAAD8C62F0BD24BC4 /* Pods-SocialNetwork.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DEFA9602745A1D4EC75C0172 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DAC2FF65C88546D40CF61311 /* Pods_SocialNetwork.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EBD3C2E3218CDC1E00E61956 = {
 			isa = PBXGroup;
 			children = (
 				EBD3C2EE218CDC1E00E61956 /* SocialNetwork */,
 				EBD3C2ED218CDC1E00E61956 /* Products */,
+				C9174EBD3AA1FAE432A7750E /* Pods */,
+				DEFA9602745A1D4EC75C0172 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,13 +89,18 @@
 		EBD3C2EE218CDC1E00E61956 /* SocialNetwork */ = {
 			isa = PBXGroup;
 			children = (
+				EBB4E67C218CF25A00E50558 /* SocialNetwork.entitlements */,
+				EBCB384C218CE2D600E84DF3 /* GoogleService-Info.plist */,
 				EBD3C2EF218CDC1E00E61956 /* AppDelegate.swift */,
-				EBD3C2F1218CDC1E00E61956 /* ViewController.swift */,
+				EBD3C2F1218CDC1E00E61956 /* IniciarSesionViewController.swift */,
 				EBD3C2F3218CDC1E00E61956 /* Main.storyboard */,
 				EBD3C2F9218CDC1E00E61956 /* Assets.xcassets */,
 				EBD3C2FB218CDC1E00E61956 /* LaunchScreen.storyboard */,
 				EBD3C2FE218CDC1E00E61956 /* Info.plist */,
 				EBD3C2F6218CDC1E00E61956 /* SocialNetwork.xcdatamodeld */,
+				EBB4E67D218CF4AC00E50558 /* SnapsViewController.swift */,
+				EBB4E67F218CF82F00E50558 /* ImagenViewController.swift */,
+				EBB4E681218D022B00E50558 /* ElegirUsuarioViewController.swift */,
 			);
 			path = SocialNetwork;
 			sourceTree = "<group>";
@@ -74,9 +112,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EBD3C301218CDC1E00E61956 /* Build configuration list for PBXNativeTarget "SocialNetwork" */;
 			buildPhases = (
+				5CE330ADA74C11788551502F /* [CP] Check Pods Manifest.lock */,
 				EBD3C2E8218CDC1E00E61956 /* Sources */,
 				EBD3C2E9218CDC1E00E61956 /* Frameworks */,
 				EBD3C2EA218CDC1E00E61956 /* Resources */,
+				586F76045349FBF251DFFC80 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -100,6 +140,11 @@
 					EBD3C2EB218CDC1E00E61956 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -127,6 +172,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EBD3C2FD218CDC1E00E61956 /* LaunchScreen.storyboard in Resources */,
+				EBCB384D218CE2D600E84DF3 /* GoogleService-Info.plist in Resources */,
 				EBD3C2FA218CDC1E00E61956 /* Assets.xcassets in Resources */,
 				EBD3C2F5218CDC1E00E61956 /* Main.storyboard in Resources */,
 			);
@@ -134,14 +180,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		586F76045349FBF251DFFC80 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SocialNetwork/Pods-SocialNetwork-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SocialNetwork/Pods-SocialNetwork-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5CE330ADA74C11788551502F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SocialNetwork-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EBD3C2E8218CDC1E00E61956 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBD3C2F2218CDC1E00E61956 /* ViewController.swift in Sources */,
+				EBB4E67E218CF4AC00E50558 /* SnapsViewController.swift in Sources */,
+				EBB4E680218CF82F00E50558 /* ImagenViewController.swift in Sources */,
+				EBD3C2F2218CDC1E00E61956 /* IniciarSesionViewController.swift in Sources */,
 				EBD3C2F0218CDC1E00E61956 /* AppDelegate.swift in Sources */,
 				EBD3C2F8218CDC1E00E61956 /* SocialNetwork.xcdatamodeld in Sources */,
+				EBB4E682218D022B00E50558 /* ElegirUsuarioViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,9 +370,12 @@
 		};
 		EBD3C302218CDC1E00E61956 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5FE61D48803D6063A7E14D3 /* Pods-SocialNetwork.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SocialNetwork/SocialNetwork.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4C5AN9GR53;
 				INFOPLIST_FILE = SocialNetwork/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bazan.SocialNetwork;
@@ -290,9 +387,12 @@
 		};
 		EBD3C303218CDC1E00E61956 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FE553FAAAD8C62F0BD24BC4 /* Pods-SocialNetwork.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SocialNetwork/SocialNetwork.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4C5AN9GR53;
 				INFOPLIST_FILE = SocialNetwork/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bazan.SocialNetwork;
