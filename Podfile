@@ -9,7 +9,8 @@ target 'SocialNetwork' do
   pod 'Firebase'
   pod 'Firebase/Core'
   pod 'Firebase/Auth'
-  pod 'Firebase/Database'
+  pod 'Firebase/Database','<4'
   pod 'Firebase/Storage'
+  pod 'SDWebImage'
 
 end

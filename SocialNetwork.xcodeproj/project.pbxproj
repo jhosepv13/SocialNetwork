@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB27232F21936285007B3377 /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB27232E21936285007B3377 /* Usuario.swift */; };
+		EB27233121938012007B3377 /* Snap.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB27233021938012007B3377 /* Snap.swift */; };
+		EB27233321938820007B3377 /* VerSnapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB27233221938820007B3377 /* VerSnapViewController.swift */; };
 		EBB4E67E218CF4AC00E50558 /* SnapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB4E67D218CF4AC00E50558 /* SnapsViewController.swift */; };
 		EBB4E680218CF82F00E50558 /* ImagenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB4E67F218CF82F00E50558 /* ImagenViewController.swift */; };
 		EBB4E682218D022B00E50558 /* ElegirUsuarioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB4E681218D022B00E50558 /* ElegirUsuarioViewController.swift */; };
@@ -24,6 +27,9 @@
 		6FE553FAAAD8C62F0BD24BC4 /* Pods-SocialNetwork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialNetwork.release.xcconfig"; path = "Pods/Target Support Files/Pods-SocialNetwork/Pods-SocialNetwork.release.xcconfig"; sourceTree = "<group>"; };
 		D5FE61D48803D6063A7E14D3 /* Pods-SocialNetwork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialNetwork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SocialNetwork/Pods-SocialNetwork.debug.xcconfig"; sourceTree = "<group>"; };
 		DAC2FF65C88546D40CF61311 /* Pods_SocialNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocialNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB27232E21936285007B3377 /* Usuario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
+		EB27233021938012007B3377 /* Snap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snap.swift; sourceTree = "<group>"; };
+		EB27233221938820007B3377 /* VerSnapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerSnapViewController.swift; sourceTree = "<group>"; };
 		EBB4E67C218CF25A00E50558 /* SocialNetwork.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SocialNetwork.entitlements; sourceTree = "<group>"; };
 		EBB4E67D218CF4AC00E50558 /* SnapsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapsViewController.swift; sourceTree = "<group>"; };
 		EBB4E67F218CF82F00E50558 /* ImagenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagenViewController.swift; sourceTree = "<group>"; };
@@ -68,6 +74,27 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		EB27232C219361D7007B3377 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EBB4E67D218CF4AC00E50558 /* SnapsViewController.swift */,
+				EBD3C2F1218CDC1E00E61956 /* IniciarSesionViewController.swift */,
+				EBB4E67F218CF82F00E50558 /* ImagenViewController.swift */,
+				EBB4E681218D022B00E50558 /* ElegirUsuarioViewController.swift */,
+				EB27233221938820007B3377 /* VerSnapViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		EB27232D2193622A007B3377 /* Modelos */ = {
+			isa = PBXGroup;
+			children = (
+				EB27232E21936285007B3377 /* Usuario.swift */,
+				EB27233021938012007B3377 /* Snap.swift */,
+			);
+			path = Modelos;
+			sourceTree = "<group>";
+		};
 		EBD3C2E3218CDC1E00E61956 = {
 			isa = PBXGroup;
 			children = (
@@ -89,18 +116,16 @@
 		EBD3C2EE218CDC1E00E61956 /* SocialNetwork */ = {
 			isa = PBXGroup;
 			children = (
+				EB27232D2193622A007B3377 /* Modelos */,
+				EB27232C219361D7007B3377 /* ViewControllers */,
 				EBB4E67C218CF25A00E50558 /* SocialNetwork.entitlements */,
 				EBCB384C218CE2D600E84DF3 /* GoogleService-Info.plist */,
 				EBD3C2EF218CDC1E00E61956 /* AppDelegate.swift */,
-				EBD3C2F1218CDC1E00E61956 /* IniciarSesionViewController.swift */,
 				EBD3C2F3218CDC1E00E61956 /* Main.storyboard */,
 				EBD3C2F9218CDC1E00E61956 /* Assets.xcassets */,
 				EBD3C2FB218CDC1E00E61956 /* LaunchScreen.storyboard */,
 				EBD3C2FE218CDC1E00E61956 /* Info.plist */,
 				EBD3C2F6218CDC1E00E61956 /* SocialNetwork.xcdatamodeld */,
-				EBB4E67D218CF4AC00E50558 /* SnapsViewController.swift */,
-				EBB4E67F218CF82F00E50558 /* ImagenViewController.swift */,
-				EBB4E681218D022B00E50558 /* ElegirUsuarioViewController.swift */,
 			);
 			path = SocialNetwork;
 			sourceTree = "<group>";
@@ -189,16 +214,14 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-SocialNetwork/Pods-SocialNetwork-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
-				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
-				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
-				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -232,10 +255,13 @@
 			files = (
 				EBB4E67E218CF4AC00E50558 /* SnapsViewController.swift in Sources */,
 				EBB4E680218CF82F00E50558 /* ImagenViewController.swift in Sources */,
+				EB27232F21936285007B3377 /* Usuario.swift in Sources */,
 				EBD3C2F2218CDC1E00E61956 /* IniciarSesionViewController.swift in Sources */,
+				EB27233321938820007B3377 /* VerSnapViewController.swift in Sources */,
 				EBD3C2F0218CDC1E00E61956 /* AppDelegate.swift in Sources */,
 				EBD3C2F8218CDC1E00E61956 /* SocialNetwork.xcdatamodeld in Sources */,
 				EBB4E682218D022B00E50558 /* ElegirUsuarioViewController.swift in Sources */,
+				EB27233121938012007B3377 /* Snap.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
